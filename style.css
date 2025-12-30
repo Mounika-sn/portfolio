@@ -1,0 +1,214 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f4f4;
+}
+
+header {
+  background: #6c63ff;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+nav {
+  background: #333;
+  text-align: center;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 15px;
+  text-decoration: none;
+}
+
+section {
+  padding: 40px;
+  background: white;
+  margin: 20px;
+  border-radius: 8px;
+}
+
+button {
+  background: #6c63ff;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #333;
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: #333;
+}
+
+/* Header */
+header {
+  background: linear-gradient(90deg, #ff6a00, #ee0979);
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+header h1 {
+  font-size: 42px;
+}
+
+header p {
+  font-size: 18px;
+}
+
+/* Navbar */
+nav {
+  background: #222;
+  text-align: center;
+  padding: 15px;
+}
+
+nav a {
+  color: #ffcc00;
+  margin: 15px;
+  font-size: 18px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #00ffcc;
+}
+
+/* Sections */
+section {
+  background: white;
+  margin: 30px auto;
+  padding: 40px;
+  width: 80%;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  animation: fadeIn 1s ease-in;
+}
+
+section h2 {
+  color: #764ba2;
+  margin-bottom: 15px;
+}
+
+/* Skills */
+ul li {
+  background: linear-gradient(90deg, #43cea2, #185a9d);
+  color: white;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 8px;
+  list-style: none;
+}
+
+/* Projects */
+#projects p {
+  background: linear-gradient(90deg, #ff512f, #dd2476);
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 8px 0;
+}
+
+/* Contact Form */
+form input, form textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background: linear-gradient(90deg, #36d1dc, #5b86e5);
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+  background: #111;
+  color: #aaa;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  section {
+    width: 95%;
+  }
+}
+
+
+#social {
+  text-align: center;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 55px;
+  height: 55px;
+  margin: 10px;
+  border-radius: 50%;
+  font-size: 24px;
+  color: white;
+  transition: 0.4s;
+}
+
+/* Individual Colors */
+.facebook { background: #1877f2; }
+.instagram { background: radial-gradient(circle at 30% 30%, #fdf497, #fd5949, #d6249f, #285aeb); }
+.linkedin { background: #0077b5; }
+.github { background: #333; }
+.twitter { background: #000; }
+
+/* Hover Effect */
+.social-icons a:hover {
+  transform: rotate(360deg) scale(1.2);
+  box-shadow: 0 0 15px rgba(0,0,0,0.4);
+}
